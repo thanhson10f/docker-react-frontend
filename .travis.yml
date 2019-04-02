@@ -1,0 +1,9 @@
+sudo: required
+services:
+    - docker
+
+before_install:
+    - docker build -t thanhson10f/docker-react-frontent -f Dockerfile.dev .
+
+script:
+    - docker run thanhson10f/docker-react-frontent npm run test -- --coverage
