@@ -17,7 +17,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React with SON
+            Learn React with SON NGUYEN
           </a>
         </header>
       </div>
